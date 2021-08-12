@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Playground.Api.Sheets
 {
-    // Sheet should be shared with fjesus-sheets-access@fjesussheetsaccess.iam.gserviceaccount.com
     public class SheetReader
     {
         public static async Task<Models.Endpoint> GetEndpointFromSheet(SheetsService service, string spreadsheetId, 
